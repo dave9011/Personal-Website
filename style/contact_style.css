@@ -75,7 +75,7 @@ nav a:hover:after {
 }
 
 #contact_info_div  {
-	width: 70%;
+	width: 85%;
 	margin: 0 auto;
 	margin-top: 12%;
 }
@@ -96,14 +96,14 @@ nav a:hover:after {
 	text-align:center;
 	margin-bottom: 4%;
 	float: left;
-	width: 50%;
+	width: 33.3%;
 }
 
 #contact_info_div div p  {
 	color: rgb(64, 71, 96);
-	font-size: 1.5em;
+	font-size: 1.4em;
 	font-weight: bold;
-	line-height: 1.5em;
+	line-height: 1.4em;
 }
 
 @media only screen and (max-device-width: 480px) {
