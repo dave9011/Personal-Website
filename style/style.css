@@ -1,0 +1,27 @@
+
+* {
+	margin:0;
+	padding:0;
+}
+
+html { 
+	overflow-y:scroll; 
+	overflow-x:hidden;
+	/* min-width: 960px; */
+}
+
+html, body {
+	/* min-width:1080px; */
+}
+
+body {
+	background-color: #F0F3BD;
+}
+
+#body_content_wrapper {
+	overflow:hidden;
+	width:100%;
+	margin:0 auto;
+}
+
+

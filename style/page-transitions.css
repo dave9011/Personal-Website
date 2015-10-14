@@ -1,0 +1,119 @@
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@-webkit-keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@-webkit-keyframes slideOutUp {
+  0% {
+    transform: none;
+    visibility: visible;
+    z-index: 1;
+  }
+
+  100% {
+    transform: translate3d(0, -100%, 0);
+    visibility: hidden;
+    z-index: -1;
+  }
+}
+
+@keyframes fadeOutRight {
+  0% {
+    opacity: 1;
+    transform: none;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+.m-scene {
+  /** Basic styles for an animated element */
+  /** An element that fades in */
+  /** An element that fades in and slides up */
+  /** An element that fades in and slides from the right */
+}
+.m-scene .scene_element {
+  animation-duration: 0.5s;
+
+  -webkit-animation-duration: 0.5s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
+}
+.m-scene .scene_element--fadein {
+  animation-name: fadeIn;
+}
+.m-scene .scene_element--fadeinup {
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+}
+
+.m-scene .scene_element--fadeoutup {
+  animation-name: fadeOutUp;
+  -webkit-animation-name: fadeOutUp;
+}
+
+.m-scene .scene_element--fadeinright {
+  animation-name: fadeInRight;
+  -webkit-animation-name: fadeInRight;
+}
+
+.m-scene .scene_element--fadeoutright {
+  -webkit-animation-name: fadeOutRight;
+}
+
+.m-scene .scene_element--slideoutup {
+  -webkit-animation-name: slideOutUp;
+}
+
+.m-scene.is-exiting .scene_element { 
+  animation-direction: alternate-reverse;
+  -webkit-animation-direction: alternate-reverse;
+  -moz-animation-direction: alternate-reverse;
+}
