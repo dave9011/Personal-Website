@@ -99,11 +99,12 @@ nav a:hover:after {
 	width: 33.3%;
 }
 
-#contact_info_div div p  {
+#contact_info_div div p ,#contact_info_div div a {
 	color: rgb(64, 71, 96);
 	font-size: 1.4em;
 	font-weight: bold;
 	line-height: 1.4em;
+	text-decoration: none;
 }
 
 @media only screen and (max-device-width: 480px) {
