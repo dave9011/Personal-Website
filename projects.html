@@ -20,6 +20,11 @@
 		
 		<link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700' rel='stylesheet' type='text/css'>
 		
+		<link href='https://fonts.googleapis.com/css?family=Courgette|Great+Vibes|Leckerli+One|Yesteryear|Sree+Krushnadevaraya|Rozha+One|Asar' rel='stylesheet' type='text/css'>
+		
+		<link href='https://fonts.googleapis.com/css?family=Slabo+27px|Abel|Archivo+Narrow:400,700|News+Cycle' rel='stylesheet' type='text/css'>
+		
+		
 		<script src="script/jquery-1.11.3.min.js"></script>
 		
 		<!--[if IE]>
@@ -39,130 +44,118 @@
 	<body> 
 
 		<div class="m-scene" id="main">
+		
+			<h1 class="author">David Hernandez</h1>
 
-		<div class="m-page scene_element scene_element--fadeinright">
-	
-			<nav>
-				<ul>
-					<li><a href="index.html">home</a></li>
-					<li><a href="about.html">about</a></li>
-					<li><a href="projects.html">projects</a></li>
-					<li><a href="resume.html">resume</a></li>							
-					<li><a href="contact.html">contact</a></li>
-				</ul>
-			</nav>
+			<div class="main_container m-page scene_element scene_element--fadeinright">
+			
+				<nav>
+					<ul>
+						<li><a class="testing_fonts" href="index.html">home</a></li>
+						<li><a class="testing_fonts" href="about.html">about</a></li>
+						<li><a class="testing_fonts" href="projects.html">projects</a></li>
+						<li><a class="testing_fonts" href="resume.html">resume</a></li>							
+						<li><a class="testing_fonts" href="contact.html">contact</a></li>
+					</ul>
+				</nav>
+				
+				<div class="left-menu">
+					<ul>
+						<li><a class="testing_fonts" href="index.html">A</a></li>
+						<li><a class="testing_fonts" href="about.html">B</a></li>
+						<li><a class="testing_fonts" href="projects.html">C</a></li>
+						<li><a class="testing_fonts" href="resume.html">D</a></li>							
+						<li><a class="testing_fonts" href="contact.html">E</a></li>
+					</ul>
+				</div>
 
-			<div id="gallery_wrapper">
+				<div id="gallery_wrapper">
 
-				<ul class="rig columns-3">
-					<li class="hover_color_2 circle">
-					   <a href="img/gui_1.PNG" data-lightbox="project1" data-title="Thermal Oxidizer GUI">
-							<img class="fancybox" id="img1" src="img/gui_1.PNG"/>
-						</a>
-						<div class="project_desc">
-							<h3>UCF Research Project</h3>
-							<p>Thermal Oxidizer GUI</p>
-							<img class="light_trigger" src="img/icons/expand_1.svg">
-						</div>
-					</li>
-					<li class="hover_color_2 circle">
-						<a href="img/gui_2.PNG" data-lightbox="project1" data-title="Thermal Oxidizer GUI running">
-							<img class="fancybox" src="img/gui_2.PNG"/>
-						</a>
-						<div class="project_desc">
-							<h3>UCF Research Project</h3>
-							<p>Thermal Oxidizer GUI running</p>
-							<img class="light_trigger" src="img/icons/expand_1.svg">
-						</div>
-					</li>
-					<li class="hover_color_2 circle">
-						<a href="img/gui_3.PNG" data-lightbox="project1" data-title="Thermal Oxidizer GUI outputs">
-							<img src="img/gui_3.PNG"/>
-						</a>
-						<div class="project_desc">
-							<h3>UCF Research Project</h3>
-							<p>Thermal Oxidizer GUI outputs</p>
-							<img class="light_trigger" src="img/icons/expand_1.svg">
-						</div>
-					</li>
-					<li class="hover_color_2 circle">
-						<a href="img/android_0.jpg" data-lightbox="project2">
-							<img class="portrait" src="img/android_0.jpg" />  <!-- width="563" height="480" -->
-						</a>
-						<div class="project_desc">
-							<h3>Android Calculator App</h3>
-							<p>Original design screenshots</p>
-							<img class="light_trigger" src="img/icons/expand_1.svg">
-						</div>
-					</li>
-					<li class="hover_color_2 circle">
-						<a href="img/android_1.png" data-lightbox="project2">
-							<img class="portrait" src="img/android_1.png" />  <!--width="270" height="480" -->
-						</a>
-						<div class="project_desc">
-							<h3>Android Calculator App</h3>
-							<p>Alternate design (concept) </p>
-							<img class="light_trigger" src="img/icons/expand_1.svg">
-						</div>
-					</li>
-					<li class="hover_color_2 circle">
-						<a href="img/android_2.png" data-lightbox="project2">
-							<img class="portrait" src="img/android_2.png" />  <!--width="450" height="800" -->
-						</a>
-						<div class="project_desc">
-							<h3>Android "SleepTalk" App</h3>
-							<p>First app using visual design principles</p>
-							<img class="light_trigger" src="img/icons/expand_1.svg">
-						</div>
-					</li>
-					<li class="hover_color_2 circle">
-						<a href="img/art_skull.jpg" data-lightbox="project3">
-							<img class="portrait" src="img/art_skull.jpg" />  
-						</a>
-						<div class="project_desc">
-							<h3>Valencia College - Art 1</h3>
-							<p>Ink wash on canvas</p>
-							<img class="light_trigger" src="img/icons/expand_1.svg">
-						</div>
-					</li>
-					<li class="hover_color_2 circle">
-					
-						<a href="img/spark_logo-01.png" data-lightbox="project4">
-							<img class="portrait" src="img/spark_logo-01.png" /> 
-						</a>
+					<ul class="rig columns-1">
+						<li class="hover_color_2 circle">
+							<a data-lightbox="project1" data-title="Thermal Oxidizer GUI">
+								<img id="img1" src="img/img_combined_UCF_research.png"/>
+								<!-- <img class="fancybox" id="img1" src="img/gui_1.PNG"/>  -->
+							</a>
+							<div class="project_desc">
+								<h3>UCF Research Project</h3>
+								<p>Thermal Oxidizer GUI</p>
+								<img class="light_trigger" src="img/icons/expand_1.svg">
+							</div>
+						</li>
+						<li class="hover_color_2 circle">
+							<a href="img/android_0.jpg" data-lightbox="project2">
+								<img class="portrait" src="img/android_0.jpg" />  <!-- width="563" height="480" -->
+							</a>
+							<div class="project_desc">
+								<h3>Android Calculator App</h3>
+								<p>Original design screenshots</p>
+								<img class="light_trigger" src="img/icons/expand_1.svg">
+							</div>
+						</li>
+						<li class="hover_color_2 circle">
+							<a href="img/android_1.png" data-lightbox="project2">
+								<img class="portrait" src="img/android_1.png" />  <!--width="270" height="480" -->
+							</a>
+							<div class="project_desc">
+								<h3>Android Calculator App</h3>
+								<p>Alternate design (concept) </p>
+								<img class="light_trigger" src="img/icons/expand_1.svg">
+							</div>
+						</li>
+						<li class="hover_color_2 circle">
+							<a href="img/android_2.png" data-lightbox="project2">
+								<img class="portrait" src="img/android_2.png" />  <!--width="450" height="800" -->
+							</a>
+							<div class="project_desc">
+								<h3>Android "SleepTalk" App</h3>
+								<p>First app using visual design principles</p>
+								<img class="light_trigger" src="img/icons/expand_1.svg">
+							</div>
+						</li>
+						<li class="hover_color_2 circle">
+							<a href="img/art_skull.jpg" data-lightbox="project3">
+								<img class="portrait" src="img/art_skull.jpg" />  
+							</a>
+							<div class="project_desc">
+								<h3>Valencia College - Art 1</h3>
+								<p>Ink wash on canvas</p>
+								<img class="light_trigger" src="img/icons/expand_1.svg">
+							</div>
+						</li>
+						<li class="hover_color_2 circle">
 						
-						<div class="project_desc">
-							<h3>Valencia College - Graphic Design</h3>
-							<p>Company logo design</p>
-							<img class="light_trigger" src="img/icons/expand_1.svg">
-						</div>
-					</li>
-					
-					<li class="hover_color_2 circle lb-hide">
-						<a href="img/gui_2_mockup.png" data-lightbox="project1">
-							<img class="portrait" src="img/gui_2_mockup.png" /> 
-						</a>
-					</li>
-					
-					<li class="hover_color_2 circle lb-hide">
-						<a href="img/spark_logo-02.png" data-lightbox="project4">
-							<img class="portrait" src="img/spark_logo-02.png" /> 
-						</a>
-					</li>
-					
-					
-				</ul>
+							<a href="img/spark_logo-03.png" data-lightbox="project4">
+								<img class="portrait" src="img/spark_logo-03.png" /> 
+							</a>
+							
+							<div class="project_desc">
+								<h3>Valencia College - Graphic Design</h3>
+								<p>Company logo design</p>
+								<img class="light_trigger" src="img/icons/expand_1.svg">
+							</div>
+						</li>
+						
+						<li class="hover_color_2 circle">
+						
+							<a >
+								<img class="portrait" src="img/typography_syntax.svg" /> 
+							</a>
+							
+						</li>
+						
+					</ul>
+
+				</div>
 
 			</div>
 
 		</div>
 
-		</div>
-
-		
-
 		<script>
 		
+			/*
+			
 			$( window ).load(function() { 
 				var li_width = $('#gallery_wrapper ul li').innerWidth();
 				var li_new_width = Math.round(li_width);
@@ -182,6 +175,8 @@
 				});
 				
 			});
+			
+			*/
 
 		</script>
 		
