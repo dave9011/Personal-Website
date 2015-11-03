@@ -1,0 +1,221 @@
+
+
+* {
+	margin:0;
+	padding:0;
+}
+
+html { 
+	overflow-y:scroll; 
+	overflow-x:hidden;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: medium;
+	background-color: white;
+	color: #121212;
+}
+	
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+.paper {
+	width: 70%;
+	margin: 7% auto 7%;
+	padding: 4% 4% 2%;
+}
+
+.border {
+	border: 1px solid black;
+}
+
+.canvas {
+	width: 60%;
+	margin: 0% auto 4%;
+}
+
+.header-wrapper {
+	margin-bottom: 4.5%;
+}
+
+.author {
+	font-family: 'Yesteryear', cursive;
+	font-size: 3em;
+	position: relative;
+	text-align: center;
+}	
+
+.author h1 {
+	font-weight: normal;
+	line-height: 1.05em;
+}	
+
+.author h2 {
+	font-weight: normal;
+	font-size: 0.5em;
+	font-family: 'Abel', sans-serif;		
+    color: #6A6A6A;	
+}
+
+.fonts {
+	font-family: 'Abel', sans-serif;				
+}
+
+.fonts-body {
+	font-family: 'Bitter', serif;
+}
+
+.intro {
+	margin-bottom: 3.5%;
+}
+
+.intro p {
+	font-family: 'Bitter', serif;
+	font-size: 0.95em;
+   line-height: 1.55em;
+	word-break: break-all;
+	-moz-hyphens: auto;
+}
+
+.center-text {
+	text-align: center;
+	display: none;
+}
+
+.more-arrow {
+	color: #454545;
+	font-size: 2.5em;
+}
+
+.list-group {
+	text-align: center;
+	margin-bottom: 1%;
+}
+
+.list-group p {
+	display: none;
+}
+
+.list-group-item {
+	text-decoration: none;
+	font-family: 'Bitter', serif;
+	font-size: 1.8em;
+	color: #121212;
+	margin: 0 0.6%;
+	position: relative;
+}	
+
+.list-group-item:hover {
+	color: #772058;
+}
+
+.list-group-item:hover::after {
+   background: #772058;
+   border-radius: 5px;
+   font-size: 0.55em;
+   color: #fff;
+   content: attr(title);
+	display: inline-table;
+   left: 0%;
+   padding: 5px 10px;
+   position: absolute;
+   z-index: 98;
+   top: -100%;
+   font-family: 'Abel', sans-serif;
+}
+
+.list-group-item:hover:before{
+   border: solid;
+   border-color: #772058 transparent;
+   border-width: 6px 6px 0 6px;
+   top: -14%;
+   content: "";
+   left: 30%;
+   position: absolute;
+   z-index: 99;
+}
+
+ul.rig {
+	list-style: none;
+	font-size: 0px;
+	margin-left: -2.5%; /* should match li left margin */
+}
+ul.rig > li {
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	cursor: pointer;
+	padding: 2%;
+}
+
+ul.rig > li > a  {
+	line-height: 220px;
+}
+
+ul.rig > li > a  > img {
+	max-width: 100%;
+	max-height: 220px;
+	height: auto;
+	display: inline-block;
+    vertical-align: middle;
+}
+
+ul.rig li:hover p {
+	bottom: 0;
+}
+
+ul.rig.columns-1 > li {
+	width: 100%; 
+}
+
+/* class for 2 columns */
+ul.rig.columns-2 > li {
+	width: 47.5%; /* this value + 2.5 should = 50% */
+	margin: 0 0 4% 2.5%;
+}
+/* class for 3 columns */
+ul.rig.columns-3 > li {
+	width: 30.3%;
+   margin: 0 1.5% 4% 1.5%; 
+}
+/* class for 4 columns */
+ul.rig.columns-4 > li {
+	width: 22.5%; /* this value + 2.5 should = 25% */
+	margin: 0 0 4% 2.5%;
+}
+
+.ucf-therm-ox {
+	background-color: #00CCCC;
+}
+
+.android-calc {
+	background-color: #99173C;
+}
+
+.android-sleeptalk {
+	background-color: #2ADB9F;
+}
+
+.web-m-player {
+	background-color: #2BD478;
+}
+
+.web-jabber {
+	background-color: #EE0E56;
+}
+
+.val-logo {
+	background-color: #F5F5F5;
+}
+
+.val-type-syntax {
+	background-color: #FFC107;
+}
