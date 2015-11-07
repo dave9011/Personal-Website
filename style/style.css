@@ -22,9 +22,13 @@ body {
   margin: 0;
 }
 
+.container-fluid {
+	padding: 7% 0 4%;
+}
+
 .paper {
 	width: 70%;
-	margin: 7% auto 7%;
+	margin: 0 auto 7%;
 	padding: 4% 4% 2%;
 }
 
@@ -34,7 +38,7 @@ body {
 
 .canvas {
 	width: 60%;
-	margin: 0% auto 4%;
+	margin: 0 auto;
 }
 
 .header-wrapper {
@@ -219,3 +223,90 @@ ul.rig.columns-4 > li {
 .val-type-syntax {
 	background-color: #FFC107;
 }
+
+
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) { 
+	.intro {
+		 margin-bottom: 4.5%;
+	}
+	.list-group {
+		margin-bottom: 2%;
+	}
+	ul.rig > li > a {
+		line-height: 170px;
+	}
+	ul.rig > li > a > img {
+		max-height: 170px;
+	}
+ }
+ 
+ /* Medium devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+	.paper {
+		width: 84%;
+	}
+	.autor {
+		font-size: 2.6em;
+	}
+	.intro {
+		margin-bottom: 4.5%;
+	}
+	.intro p {
+		font-size: 0.85em;
+	}
+	.list-group {
+		margin-bottom: 2%;
+	}
+	.list-group-item {
+		font-size: 1.6em;
+		margin: 0 1.5%;
+	}
+	.canvas {
+		width: 70%;
+	}
+	ul.rig > li {
+		padding: 1%;
+	}
+	ul.rig > li > a {
+		line-height: 140px;
+	}
+	ul.rig > li > a > img {
+		max-height: 140px;
+	}
+ }
+ 
+ 
+@media (max-width: 768px) { 
+	.paper {
+		width: 84%;
+		margin-bottom: 7%;
+	}
+	.author {
+		font-size: 2em;
+	}
+	.intro p {
+		font-size: 0.8em;
+	}
+	.canvas {
+		width: 55%;
+	}
+	ul.rig > li {
+		padding: 6%;
+	}
+	ul.rig.columns-3 > li {
+		width: 100%; 
+		margin-bottom: 8%;
+	}
+	ul.rig > li > a {
+		line-height: 250px;
+	}
+	ul.rig > li > a > img {
+		max-height: 250px;
+	}
+	
+ }
+ 
+
