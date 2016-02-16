@@ -86,7 +86,7 @@ body {
 	font-family: 'Bitter', serif;
 	font-size: 0.95em;
    line-height: 1.55em;
-	word-break: break-all;
+	/* word-break: break-all; removing this for now, looks ugly tbh */
 	-moz-hyphens: auto;
 }
 
