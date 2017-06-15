@@ -4,79 +4,251 @@
 	<head>
 		<title>David Hernandez</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href='https://fonts.googleapis.com/css?family=Yesteryear|Bitter:400,700|Abel' rel='stylesheet' type='text/css'>
+        
+		<link href='https://fonts.googleapis.com/css?family=Montserrat|Bitter:400,700' rel='stylesheet' type='text/css'>
+        
+        <link href="https://fonts.googleapis.com/css?family=Roboto|Montserrat" rel="stylesheet">
+        
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/style.css" style="css" />		
+        
+        <link rel="stylesheet" href="components/simple-grid.min.css" style="css"/>	
+		<link rel="stylesheet" href="css/style.css" style="css"/>		
 		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 	</head>
 	<body>
-		<div class="top-container container-fluid">
-			<div class="paper">
-				<div class="header-wrapper">
-					<header class="author">
-						<h1>David Hern<span>&aacute;</span>ndez</h1>
-						<h2 class="fonts">Developer/Designer</h2>
-					</header>
-				</div>
-				<div class="intro">
-					<p class="fonts-body">
-						Hello and welcome to my page! I am David, a programmer and designer-in-training based in Orlando, FL. I love coding and making things look good.
-						My goal is to design and create applications that are both visually and functionally rich, such that they are not only a tool but an experience 
-						to users. Among others, my interest include programming/software development, web design, and UX/UI design. Be sure to check out some of my work 
-						below or reach out to me for any questions!
-					</p>
-				</div>
-				<div class="list-group">
-                    <div><a target="_blank" title="GitHub" href="http://www.github.com/dave9011"><i class="fa fa-github fa-fw"></i> </a></div>
-                    <div><a target="_blank" title="Email: hrdavidL@gmail.com" href="mailto:hrdavidL@gmail.com"><i class="fa fa-envelope fa-fw"></i> </a></div>
-                    <div><a target="_blank" title="LinkedIn" href="#"><i class="fa fa-linkedin"></i></a> </div>
-                    <div><a target="_blank" title="Resum&eacute;" href="img/David Hernandez Resume.pdf"><i class="fa fa-file-text fa-fw"></i></a></div>
-                    <div><a href="#" onclick="return false;" style="cursor: default;" title="(407)953-9088"><i class="fa fa-phone fa-fw"></i> </a></div>
-					<!-- <a title="Blog" class="list-group-item" href="blog.html"><i class="fa fa-rss-square"></i></a> -->
-				</div>
+        <div class="header-wrapper">
+            <header>
+                <div class="header-text">
+                    <h1>David Hern<span>&aacute;</span>ndez</h1>
+                    <h2 class="fonts">| &nbsp;Developer + Designer</h2>
+                </div>
+                <div class="header-buttons">
+                    <a target="_blank" title="GitHub" href="http://www.github.com/dave9011"><i class="fa fa-github fa-fw"></i></a>
+                </div>
+                <div class="header-buttons">
+                    <a target="_blank" title="Email: hrdavidL@gmail.com" href="mailto:hrdavidL@gmail.com"><i class="fa fa-envelope fa-fw"></i></a>
+                </div>
+                <div class="header-buttons">
+                    <a target="_blank" title="LinkedIn" href="https://www.linkedin.com/in/david-hernandez-3bb2164b"><i class="fa fa-linkedin"></i></a>
+                </div>
+                <div class="header-buttons">
+                    <a target="_blank" title="Resum&eacute;" href="img/David Hernandez Resume.pdf"><i class="fa fa-file-text fa-fw"></i></a>
+                </div>
+                <div class="header-buttons">
+                    <a href="#" onclick="return false;" style="cursor: default;" title="(407)953-9088"><i class="fa fa-phone fa-fw"></i></a>
+                </div>
+<!--
+                <div class="header-buttons">
+                     <a title="Blog" class="list-group-item" href="blog.html"><i class="fa fa-rss-square"></i></a> 
+                </div>
+-->
+            </header>
+        </div>
+		<div class="main-content-hold">
+			<div class="intro-hold container">
+                <div class="row">
+                    <div class="col-8 intro">
+                        <h3>Hello and welcome!</h3>
+                        <p class="fonts-body">
+                            I am David, a programmer and designer-in-training based in Orlando, FL. I enjoy coding and making things look good, therefore my goal is to design and create applications that are both visually and functionally rich, such that they are a tool, as well as an experience, to users. Among others, my interest include programming/software development, web design, and UX/UI design. Be sure to check out some of my work below or reach out to me for any questions.
+                        </p>
+                    </div>
+                    <div class="col-4 resume-icon">
+                        <div class="icon-hold">
+                            <a target="_blank" title="Resum&eacute;" href="img/David Hernandez Resume.pdf">
+                                <img id="img1" src="img/resume.svg"/>
+                            </a>
+                            <p>
+                                <a target="_blank" title="Resum&eacute;" href="img/David Hernandez Resume.pdf">
+                                    View Resume
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
 			</div>
-			<div class="gallery-container">
-				<div class="row canvas">
-					<ul class="rig columns-3">
-                        <li class="circle ucf-therm-ox">
-                            <a id="java" target="_blank" href="img/img_combined_UCF_research.png">
-                                <img id="img1" src="img/img_combined_UCF_research.png"/>
-                            </a>
-                            </li>
-                        <li class="circle android-calc">
-                            <a target="_blank" href="img/android_1_framed.png">
-                                <img class="portrait" src="img/android_1_framed.png" />  
-                            </a>
-                        </li>
-                        <li class="circle android-sleeptalk">
-                            <a target="_blank" href="img/android_2_framed.png">
-                                <img class="portrait" src="img/android_2_framed.png" />  
-                            </a>
-                        </li>
-                        <li class="circle web-m-player">
-                            <a target="_blank" href="img/music-player.png">
-                                <img class="portrait" src="img/music-player.png" />  
-                            </a>
-                        </li>
-                        <li class="circle val-logo">
-                            <a target="_blank" href="img/spark_logo-03.png">
-                                <img class="portrait" src="img/spark_logo-03.png" /> 
-                            </a>
-                        </li>
-                        <li class="circle val-type-syntax">
-                            <a target="_blank" href="img/typography_syntax.svg"><img class="portrait" src="img/typography_syntax.svg" /></a>
-                        </li>
-                        <li class="circle web-jabber">
-                            <a target="_blank" href="img/img_combined_jabber.png">
-                                <img class="portrait" src="img/img_combined_jabber.png" />  
-                            </a>
-                        </li>
-				    </ul>
-				</div>
+            <div class="section skills container">
+                <h3 class="section-title">
+                    <span class="accent-1">+</span> My Skills
+                </h3>
+                <div class="row">
+                    <div class="col-4 skills-column">
+                        <p>Languages</p>
+                        <ul>
+                            <li>PHP</li>
+                            <li>Javascript</li>
+                            <li>HTML</li>
+                            <li>Java</li>
+                            <li>C</li>
+                            <li>MySQL</li>
+                        </ul>
+                    </div>
+                    <div class="col-4 skills-column">
+                        <p>Frameworks</p>
+                        <ul>
+                            <li>Laravel</li>
+                            <li>Angular</li>
+                        </ul>
+                    </div>
+                    <div class="col-4 skills-column">
+                        <p>Tech</p>
+                        <ul>
+                            <li>Git</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+			<div class="section gallery container">
+                <h3 class="section-title">
+                    <span class="accent-1">+</span> My Projects
+                </h3>
+                
+                <div class="gallery-content">
+                    <div class="row">
+                        <div class="col-12">
+                            <!-- Gallery Rows -->
+                    <div class="row gallery-row multiple">
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-9 project-desc-hold">
+                                    <h6>UCF Research Project: Thermal Oxidizer Simulator</h6>
+                                    <p>
+                                        Java application for a UCF research that served as
+            a simulated combustion machine.
+                                    </p>
+                                </div>
+                                <div class="col-3 project-image-hold">
+                                    <div>
+                                        <a id="java" target="_blank" href="img/img_combined_UCF_research.png">
+                                            <img id="img1" src="img/img_combined_UCF_research.png"/>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-9 project-desc-hold">
+                                    <h6>Android: I Got Next</h6>
+                                    <p>
+                                        My pet project. Giving it a go at an idea a friend had to solve our pickup basketball problem.
+                                    </p>
+                                </div>
+                                <div class="col-3 project-image-hold">
+                                    <div>
+                                        <a target="_blank" href="img/i_got_next.png">
+                                            <img class="portrait" src="img/i_got_next.png" />  
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row gallery-row multiple">
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-9 project-desc-hold">
+                                    <h6>Android: SleepTalk</h6>
+                                    <p>
+                                        Coding an application which allows users to select contacts can wake
+            their device, similar to Android 5.0’s “Interruptions” feature
+                                    </p>
+                                </div>
+                                <div class="col-3 project-image-hold">
+                                    <div>
+                                        <a target="_blank" href="img/android_2_framed.png">
+                                            <img class="portrait" src="img/android_2_framed.png" />  
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-9 project-desc-hold">
+                            <h6>Android: Calculator</h6>
+                            <p>
+                                Built a scientific calculator that uses a modified version of a third party
+    math expression parser to function as a formula calculator
+                            </p>
+                        </div>
+                        <div class="col-3 project-image-hold">
+                            <div>
+                                <a target="_blank" href="img/android_1_framed.png">
+                                    <img class="portrait" src="img/android_1_framed.png" />  
+                                </a>
+                            </div>
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row gallery-row multiple">
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-9 project-desc-hold">
+                                    <h6>Web: </h6>
+                                    <p>
+                                        Music player that plays to the beat of Kanye West
+                                    </p>
+                                </div>
+                                <div class="col-3 project-image-hold">
+                                    <div>
+                                        <a target="_blank" href="img/music-player.png">
+                                            <img class="portrait" src="img/music-player.png" />  
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-9 project-desc-hold">
+                                    <h6>Web: Jabber</h6>
+                                    <p>
+                                        My introduction to Node.js and Socket.IO
+                                    </p>
+                                </div>
+                                <div class="col-3 project-image-hold">
+                                    <div>
+                                        <a target="_blank" href="img/img_combined_jabber.png">
+                                            <img class="portrait" src="img/img_combined_jabber.png" />  
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row gallery-row multiple">
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-9 project-desc-hold">
+                                    <h6>Design: Logo</h6>
+                                    <p>
+                                        A project for my Valencia College course on Design Fundamentals.
+                                    </p>
+                                </div>
+                                <div class="col-3 project-image-hold">
+                                    <div>
+                                        <a target="_blank" href="img/spark_logo-03.png">
+                                            <img class="portrait" src="img/spark_logo-03.png" /> 
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                </div>
 			</div>
 		</div>
+        <div class="footer-wrapper">
+            <footer>
+                
+            </footer>
+        </div>
 		
-		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="components/jquery-1.11.3.min.js"></script>
 		
         <!-- Google Analytics -->
 		<script>
